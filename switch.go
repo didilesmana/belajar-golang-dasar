@@ -20,4 +20,15 @@ func main() {
 	case false:
 		fmt.Println("salah")
 	}
+
+	name = "didilesmana"
+	lenght := len(name)
+	switch {
+	case lenght > 10:
+		fmt.Println("Panjang")
+	case lenght > 5:
+		fmt.Println("Sedang")
+	default:
+		fmt.Println("Pendek")
+	}
 }
